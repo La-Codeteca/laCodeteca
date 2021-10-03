@@ -1,0 +1,10 @@
+title : La Codeteca
+description: 'La Codeteca'
+
+markdown: kramdown
+highlighter: rouge
+logo: false
+paginate: 15
+baseurl: /
+plugins: [jekyll-gist]
+permalink: /:year/:month/:title.html
