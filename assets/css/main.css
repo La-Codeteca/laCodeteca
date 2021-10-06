@@ -74,7 +74,7 @@ header {
     width: 100%;
     /*max-width: 80%;*/
     margin: 0 auto;
-    background-image: url(/assets/img/bg.gif);
+    background-image: url(../assets/img/bg.gif);
     background-size: cover;
     color: rgba(255, 255, 255, .75);
 }
