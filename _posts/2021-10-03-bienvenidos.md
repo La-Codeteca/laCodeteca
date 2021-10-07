@@ -20,11 +20,8 @@ ni desarrollo previo en el que basarse. Por lo que la gestión, de usuarios,
 conexión a base de datos, visualización (no, tampoco usaba bootstrap) y demás
 partes que la componian eran 100% hechos desde 0. Estaba empenzando, y en
 aquel momento todo aquello parecia buena idea...
-    
-<img src="/assets/img/codeteca.png"style="float:left">
 
-![La Codeteca Logo]({{ site.url }}/assets/img/codeteca.png)
-{: .image-left}
+![La Codeteca Logo]({{ site.url }}/assets/img/codeteca.png){: .image-left}
 
 Con el tiempo aprendes que si algo lo haces 100% desde 0, también lo tienes
 que mantener 100% desde cero. Y que todos los días surgen vulnerabilidades,
@@ -36,8 +33,7 @@ dos opciones: o asumes que te has casado con ese código y vives por y para él
 o terminas abando el proyecto, con los riesgos que eso supone además en
 materia de seguridad.
     
-![Crakernano Avatar]({{ site.url }}/assets/img/avatar.png)
- 27 {: .image-right}
+![Crakernano Avatar]({{ site.url }}/assets/img/avatar.png){: .image-right}
  
  
     
