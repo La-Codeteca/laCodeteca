@@ -233,3 +233,11 @@ li {
     border-radius: .28571429rem;
     border: 1px solid rgba(34,36,38,.15);
 }
+
+.image-right img{
+    float: right;
+}
+
+.image-left img{
+    float:left;
+}
