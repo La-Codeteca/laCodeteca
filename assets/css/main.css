@@ -1,0 +1,243 @@
+
+    Import League Gothic <3
+*/
+@font-face {
+    font-family: 'League Gothic';
+    src: url('leaguegothic-regular-webfont.eot');
+    src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('leaguegothic-regular-webfont.woff') format('woff'),
+    url('leaguegothic-regular-webfont.ttf') format('truetype'),
+    url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #b5e853;
+    letter-spacing: -0.03em;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+p{
+    color: #eaeaea;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #63c0f5;
+    text-shadow: 0 0 5px rgba(104,182,255,0.5);
+}
+
+html, body {
+    height: 100%;
+    color: #eaeaea;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #1b1b1b;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+img, video, iframe {
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+td {
+    padding: 5px 10px;
+    color: #eaeaea;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+th{
+    border-bottom: 1px dashed #b5e853;
+    padding: 5px 10px;
+    color: #eaeaea;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* header */
+
+.header-wrapper {
+    max-height: 100%;
+    background-color: #1b1b1b;
+}
+
+header {
+    width: 100%;
+    /*max-width: 80%;*/
+    margin: 0 auto;
+    background-image: url(../img/bg.gif);
+    background-size: cover;
+    color: rgba(255, 255, 255, .75);
+}
+
+.site-logo {
+    max-width: 15%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-top: 20%;
+    background-color: black;
+    padding: 20px;
+    border-radius: 200px;
+}
+
+.date{
+   #color: #eaeaea;
+}
+.site-description {
+    font-family: "League Gothic", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 2rem;    
+    margin-right: 4rem;
+}
+
+
+/* /header */
+
+.site-nav{
+   background-color: black;
+}
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: 1rem;
+   background-color: #1b1b1b;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+
+
+/* footer */
+
+footer {
+    color: rgba(255, 255, 255, .75) !important;    
+    background-color: black;
+    height: 6rem;
+    padding-top: 1rem;
+}
+
+.footer-wrapper { 
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.ui.transparent.icon.input {
+    color: rgba(255, 255, 255, .75) !important;
+}
+
+.ui.transparent.icon.input input:focus {
+    color: rgba(255, 255, 255, .75) !important;
+}
+
+/* /footer */
+
+/* main */
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.ui.card {
+    width: auto !important;
+}
+
+.ui.card image  {
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.image {
+    max-width: 500px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+.small-date {
+    color: rgba(0,0,0,.75);
+    font-weight: lighter;   
+}
+
+.description {
+    word-wrap: break-word;
+}
+/* /main */
+
+/* post */
+
+.post-container {
+    font-family: "Open Sans", sans-serif;
+}
+
+code.highlighter-rouge {
+    background: rgba(0,0,0,0.9);
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 0px 3px;
+    margin: 0px -3px;
+    color: #aa759f;
+    border-radius: 2px;
+}
+
+.highlight {
+    color: #d0d0d0;
+    background-color: #000; !important
+}
+
+pre {
+    background: rgba(0,0,0,0.9);
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 10px;
+    font-size: 16px;
+    color: #b5e853;
+    border-radius: 2px;
+    text-wrap: normal;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-y: hidden;
+}
+
+ul li {
+    list-style-image: url("../img/bullet.png");
+}
+li {
+    line-height: 1.4;
+    color: #eaeaea;
+}
+
+.ui.segment {
+    position: relative;
+    background: #000;
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    margin: 1rem 0;
+    padding: 1em 1em;
+    border-radius: .28571429rem;
+    border: 1px solid rgba(34,36,38,.15);
+}
+
+.image-right{
+    float: right;
+}
+
+.image-left{
+    float:left;
+}
