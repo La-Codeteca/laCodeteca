@@ -234,10 +234,10 @@ li {
     border: 1px solid rgba(34,36,38,.15);
 }
 
-.image-right img{
+.image-right{
     float: right;
 }
 
-.image-left img{
+.image-left{
     float:left;
 }
